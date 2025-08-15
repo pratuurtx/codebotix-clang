@@ -1,55 +1,46 @@
-# Prerequisites
-*.d
-
-# Object files
+# Compiled object files
 *.o
-*.ko
 *.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
+# Compiled dynamic libraries
 *.so
 *.so.*
 *.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
 
 # Executables
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
+a.out
 
-# Debug files
+# Debug / profiling files
 *.dSYM/
-*.su
-*.idb
-*.pdb
+*.gcda
+*.gcno
+*.gcov
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Editor / OS files
+*.swp
+*~
+.DS_Store
+Thumbs.db
 
-# debug information files
-*.dwo
+# Build directories
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+
+# Logs
+*.log
+
+# macOS executables (no extension)
+*
+!*.c
+!*.h
