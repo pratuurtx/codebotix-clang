@@ -39,8 +39,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# macOS executables (no extension)
-*
-!*.c
-!*.h
